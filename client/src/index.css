@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply w-full h-screen flex flex-col justify-center items-center bg-black text-white overflow-hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  @apply w-full m-auto flex flex-col justify-start;
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(115, 124, 207, 0) 0%, #3d96e9 100%);
+  filter: blur(123px);
+}
+.pink__gradient {
+  background: linear-gradient(180deg, rgba(115, 124, 207, 0) 0%, #e43efa 100%);
+  filter: blur(123px);
+}
